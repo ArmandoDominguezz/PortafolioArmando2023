@@ -15,7 +15,7 @@ RUN apt-get update && \
     apt-get install -y nodejs && \
     npm install -g @quasar/cli && \
     git clone https://github.com/ArmandoDominguezz/PortafolioArmando2023.git && \
-    cd /home/Portafolio2023 && \
+    cd /home/PortafolioArmando2023 && \
     git checkout master && \
     npm install && \
     quasar build && \
