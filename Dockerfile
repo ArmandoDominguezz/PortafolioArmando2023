@@ -14,7 +14,7 @@ RUN apt-get update && \
     curl -fsSL https://deb.nodesource.com/setup_16.x | tac | tac | bash - && \
     apt-get install -y nodejs && \
     npm install -g @quasar/cli && \
-    git clone https://github.com/ArmandoDominguezz/Portafolio2023.git && \
+    git clone https://github.com/ArmandoDominguezz/PortafolioArmando2023.git && \
     cd /home/Portafolio2023 && \
     git checkout master && \
     npm install && \
